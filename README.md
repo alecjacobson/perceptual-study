@@ -3,7 +3,7 @@
 ![example screenshot](screenshot.jpg)
 
 This is nothing more than the .php/.javascript/.css/.html files we used to
-create the two-/four-alternative forced choice perceptual study for out
+create the two-/four-alternative forced choice perceptual study for our
 Transactions on Graphics paper [Ink-and-Ray: Bas-Relief Meshes for Adding
 Global Illumination Effects to Hand-Drawn
 Characters](http://dcgi.felk.cvut.cz/home/sykorad/ink-and-ray), [Sýkora et al.
