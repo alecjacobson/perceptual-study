@@ -1,0 +1,24 @@
+Data is separated into two folders. One for each experiment type (e.g. 4AFC is
+for four alternative forced choice.
+
+Each subject (full test) gets a file named [unique id].txt
+
+Inside this file is a JSON string define a few fields:
+
+experiment: either "4AFC" or "2AFC" (type of experiment run)
+
+unique_id: unique string defining subject
+
+User_Agent: browser information
+
+age: age of subject
+
+gender: "male","female","other"
+
+experience: graphics experience: "none", "basic", "intermediate", "advanced"
+
+alternatives[qid]: lists the stimuli in the order that they were shown, qid is
+the question id. (e.g. "inf-real-lumo-ink")
+
+question[qid]: lists the choice for question qid corresponding to the stimuli
+in alternatives[qid]. [model][view]_[method]_[lighting] (e.g. "rings2_ink_d")
